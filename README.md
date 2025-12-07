@@ -29,42 +29,9 @@ torch.manual_seed(42)
 np.random.seed(42)
 ```
 
-#### Define the (2x2km) geophysical domain and seismic source
-
-
-```python
-# Device configuration
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
-# Domain parameters
-x_min, x_max = 0.0, 2.0  # km
-z_min, z_max = 0.0, 2.0  # km
-dx, dz = 0.02, 0.02  # km (20m)
-nx, nz = 101, 101  # grid points
-source_x, source_z = 1.0, 1.0  # km
-
-# Velocity model parameters
-v0 = 2.0  # km/s at surface
-vertgrad = 0.5  # s^{-1}
-horigrad = 0.0
-
-# Generate grid coordinates
-x = torch.linspace(x_min, x_max, nx, device=device)
-z = torch.linspace(z_min, z_max, nz, device=device)
-X, Z = torch.meshgrid(x, z, indexing='ij')
-coords = torch.stack((X.flatten(), Z.flatten()), dim=1)
-
-# Reference velocity (at source location)
-v_ref = v0 + vertgrad * source_z + horigrad * source_x
-
-#####
-velmodel = v_ref + vertgrad*(X-source_x) + horigrad*(Z-source_z);
-```
-
-    Using device: cpu
-    
-
-https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L68-L87
+#### Define the (2x2km) geophysical domain, seismic source and visualize
+***
+https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/711e52e5690d38612420463ad005645fb3492ccb/PIELM/PIELM%20README.md?plain=1#L35-L87
 
     
 ![png](PIELM/Validate/output_7_0.png)

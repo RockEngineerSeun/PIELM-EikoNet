@@ -88,7 +88,7 @@ cbar.ax.tick_params(labelsize=10)
 
 
     
-![png](output_7_0.png)
+![png](Validate/output_7_0.png)
     
 
 
@@ -354,8 +354,8 @@ plt.yticks(fontsize=10)
 
 
     
-![png](output_18_1.png)
+![png](Validate/output_18_1.png)
     
 
 
-####  Please contact me if you have any problem with script.
+####  Please contact the corresponding author if you have any problem with the scripts.

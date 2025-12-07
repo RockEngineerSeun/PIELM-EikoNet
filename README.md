@@ -31,7 +31,7 @@ np.random.seed(42)
 
 #### Define the (2x2km) geophysical domain, seismic source and visualize
 
-https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/711e52e5690d38612420463ad005645fb3492ccb/PIELM/PIELM%20README.md?plain=1#L35-L87
+<a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/711e52e5690d38612420463ad005645fb3492ccb/PIELM/PIELM%20README.md?plain=1#L35-L87">Geophysical domain</a>
 
     
 ![png](PIELM/Validate/output_7_0.png)
@@ -100,7 +100,7 @@ velmodel_np = velmodel.cpu().numpy()
 
 #### Visualization
 
-https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L316-L339
+<a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L316-L339">Result</a>
 
 
 ![png](PIELM/Validate/output_18_1.png)

@@ -57,7 +57,7 @@ coords = torch.stack((X.flatten(), Z.flatten()), dim=1)
 # Reference velocity (at source location)
 v_ref = v0 + vertgrad * source_z + horigrad * source_x
 
-#####
+
 velmodel = v_ref + vertgrad*(X-source_x) + horigrad*(Z-source_z);
 ```
 
@@ -87,7 +87,6 @@ cbar.ax.tick_params(labelsize=10)
 ```
 
 
-    
 ![png](Validate/output_7_0.png)
     
 

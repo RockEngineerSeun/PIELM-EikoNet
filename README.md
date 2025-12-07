@@ -67,7 +67,7 @@ velmodel = v_ref + vertgrad*(X-source_x) + horigrad*(Z-source_z);
 https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L68-L87
 
     
-![png](Validate/output_7_0.png)
+![png](PIELM/Validate/output_7_0.png)
     
 
 
@@ -136,7 +136,7 @@ velmodel_np = velmodel.cpu().numpy()
 https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L316-L339
 
 
-![png](Validate/output_18_1.png)
+![png](PIELM/Validate/output_18_1.png)
     
 
 

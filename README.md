@@ -140,4 +140,4 @@ https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466
     
 
 
-####  Please contact the corresponding author if you have any problem with script.
+####  Please contact the corresponding author if you have any problem with the scripts.

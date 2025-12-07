@@ -1,4 +1,4 @@
-### Requirements
+## Requirements
 - Pytorch
 - Numpy
 - Matplotlib
@@ -29,7 +29,7 @@ torch.manual_seed(42)
 np.random.seed(42)
 ```
 
-#### Define the (2x2km) geophysical domain, seismic source and visualize
+### Define the (2x2km) geophysical domain, seismic source and visualize
 
 <a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/711e52e5690d38612420463ad005645fb3492ccb/PIELM/PIELM%20README.md?plain=1#L35-L87">Domain</a>
 
@@ -38,7 +38,7 @@ np.random.seed(42)
     
 
 
-#### Calculate the Analytical Solution 
+### Calculate the Analytical Solution 
 - The analytical solution is calculated using the traveltime formula presented by [Morris Miller Slotnick](https://doi.org/10.1785/BSSA0500010162)
 
 
@@ -64,13 +64,13 @@ else:
     T_data = torch.arccosh(term) / denom
 ```
 
-#### Data preparation
+### Data preparation
 - Collocation points are 25% of the gridpoints
 - Compute autodifferentiation for traveltime within the 2D domain
 
 <a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L126-L176">Data preparation and autograd</a>
 
-#### Define 2D PIELM Algorithm and Train Model
+### Define 2D PIELM Algorithm and Train Model
 - Uses a trainable slope parameter ***a*** that dynamically scales with the input frequency.
 - Dual-ELM framework for both traveltime (u) and velocity (v); each has 2000 hidden units.
 
@@ -79,7 +79,7 @@ https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466
     Training time: 44.01 minutes
     
 
-#### PIELM predicts traveltime for the seismic source
+### PIELM predicts traveltime for the seismic source
 
 
 ```python
@@ -98,7 +98,7 @@ T_data_np = T_data.cpu().numpy()
 velmodel_np = velmodel.cpu().numpy()
 ```
 
-#### Visualization
+### Visualization
 
 <a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L316-L339">Result</a>
 

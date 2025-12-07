@@ -179,7 +179,7 @@ dT0dz = dT0dz.detach()
 - Uses a trainable slope parameter ***a*** that dynamically scales with the input frequency.
 - Dual-ELM framework for both traveltime (u) and velocity (v); each has 2000 hidden units.
 
-
+https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/2f8884bb0980953fdc2525ee20730dfc512bb58d/PIELM/PIELM_sin_algorithm2D.ipynb#L307-L413
 ```python
 #sin Activation functioon
 import math

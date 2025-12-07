@@ -106,5 +106,5 @@ velmodel_np = velmodel.cpu().numpy()
 ![png](PIELM/Validate/output_18_1.png)
     
 
-
+The full script to the quick tutorial is available <a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/d63b8e6d905d0206aee77d546929a00026feab26/PIELM/PIELM%20README.md">here</a>
 ####  Please contact the corresponding author if you have any problem with the scripts.

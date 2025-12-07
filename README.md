@@ -30,7 +30,7 @@ np.random.seed(42)
 ```
 
 #### Define the (2x2km) geophysical domain, seismic source and visualize
-***
+
 https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/711e52e5690d38612420463ad005645fb3492ccb/PIELM/PIELM%20README.md?plain=1#L35-L87
 
     

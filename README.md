@@ -68,7 +68,7 @@ else:
 - Collocation points are 25% of the gridpoints
 - Compute autodifferentiation for traveltime within the 2D domain
 
-https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L126-L176
+<a href="https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L126-L176">Data preparation and autograd</a>
 
 #### Define 2D PIELM Algorithm and Train Model
 - Uses a trainable slope parameter ***a*** that dynamically scales with the input frequency.

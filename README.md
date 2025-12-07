@@ -64,7 +64,7 @@ velmodel = v_ref + vertgrad*(X-source_x) + horigrad*(Z-source_z);
     Using device: cpu
     
 
-https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L68-L87
+[2D Domain Visualization](https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L68-L87)
 
     
 ![png](Validate/output_7_0.png)
@@ -107,7 +107,7 @@ https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466
 - Uses a trainable slope parameter ***a*** that dynamically scales with the input frequency.
 - Dual-ELM framework for both traveltime (u) and velocity (v); each has 2000 hidden units.
 
-https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L183-L289
+[PIELM-EikoNet 2D](https://github.com/RockEngineerSeun/PIELM-EikoNet/blob/c40267141ee65fa5a2e8b9466bfbad2f4f617851/PIELM/PIELM%20README.md?plain=1#L183-L289)
 
     Training time: 44.01 minutes
     

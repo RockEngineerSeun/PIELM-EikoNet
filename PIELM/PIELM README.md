@@ -87,7 +87,7 @@ cbar.ax.tick_params(labelsize=10)
 ```
 
 
-![png](PIELM/Validate/output_7_0.png)
+![png](Validate/output_7_0.png)
     
 
 
@@ -353,7 +353,7 @@ plt.yticks(fontsize=10)
 
 
     
-![png](PIELM/Validate/output_18_1.png)
+![png](Validate/output_18_1.png)
     
 
 
